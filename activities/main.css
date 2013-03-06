@@ -18,7 +18,8 @@ nav {
 	display: block;
 	float: right;
 	width: 600px;
-	padding: 10px;
+	padding: 5px;
+
 }
 
 nav li {
@@ -48,11 +49,14 @@ h1 {
 
 h2 {
 	font-size: 14px;
+	text-indent: 20px;
+	margin-top: 10px;
 }
 
 p {
 	margin-left: 20px;
 	margin-bottom: 10px;
+	width: 800px;
 }
 
 ul {
@@ -65,3 +69,11 @@ ol {
 	margin-bottom: 20px;
 }
 
+#wrapper {
+	width: 920px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-top: 30px #A8A8A8 solid;
+	border-bottom: 30px #A8A8A8 solid;
+	margin-top: 20px;
+}
