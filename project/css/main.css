@@ -51,6 +51,7 @@ table {
 
 nav {
 	display: block;
+	margin-top: 80px;
 }
 
 nav ul {
@@ -63,6 +64,12 @@ nav li {
 
 nav a {
 	padding: 5px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
 }
 
 header {
@@ -70,57 +77,105 @@ header {
 	background-image: url("../_asset/images/header_bg.jpg");
 }
 
+body {
+	background-color: #222;
+	color: #e7e7e7;
+	position: relative;
+}
+
+
+#logo {
+	width: 245px;
+	height: 200px;
+	background-image: url(../_asset/images/curtains.jpg);
+	margin-top: -150px;
+	position: absolute;
+	z-index: 100;
+	margin-left: 50px;	
+}
+
+#address {
+	margin-top: 32px;
+}
+
+#gallery {
+	width: 410px;
+	height: 320px;
+	float: right;
+	margin-top: -180px;
+	margin-right: 5%;
+}
+
+.headings {
+	font-size: 3em;
+	font-family: arial;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+
+.content {
+	font-family: arial;
+	margin-left: 50px;
+	line-height: 1.5em;
+}
+
+.content h3 {
+	font-size: 1.3em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.headings_2 {
+	font-size: 3em;
+	font-family: arial;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.content_2 {
+	font-family: arial;
+	line-height: 1.5em;
+}
+
+.content_2 h3 {
+	font-size: 1.3em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+/*----------------------------------Footer-------------------------------------------------*/
+
 footer {
+	clear: both;
 	height: 120px;
 	background-image: url("../_asset/images/header_bg.jpg");
 }
 
+footer ul {
+	margin-top: 20px;
+	margin-right: 33%;
+	margin-bottom: 10px;
+	float: right;
+}
 
+footer li {
+	float: left;
+}
 
-// width and height need to be provided to enforce consistency
-// if responsive is set to true, these values act as maximum dimensions
-width : 1140,
-height : 500,
+footer a {
+	padding: 5px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
 
-// animation values
-animtype : 'fade', // accepts 'fade' or 'slide'
-animduration : 450, // how fast the animation are
-animspeed : 4000, // the delay between each slide
-automatic : true, // automatic
+footer a:hover {
+	text-decoration: underline;
+}
 
-// control and marker configuration
-showcontrols : true, // show next and prev controls
-centercontrols : true, // center controls verically
-nexttext : 'Next', // Text for 'next' button (can use HTML)
-prevtext : 'Prev', // Text for 'previous' button (can use HTML)
-showmarkers : true, // Show individual slide markers
-centermarkers : true, // Center markers horizontally
+footer p {
+	clear: both;
+	margin-left: 25%;
+}
 
-// interaction values
-keyboardnav : true, // enable keyboard navigation
-hoverpause : true, // pause the slider on hover
-
-// presentational options
-usecaptions : true, // show captions for images using the image title tag
-randomstart : true, // start slider at random slide
-responsive : true // enable responsive capabilities (beta)
-
-
-
-
-
-
-
-
-
-
-
-
-
-jQuery(document).ready(function($) {
-    $('#banner-fade').bjqs({
-        'height' : 320,
-        'width' : 1140,
-        'responsive' : true
-    });
-});
