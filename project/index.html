@@ -8,15 +8,15 @@
 		<link rel="stylesheet" href="css/ie.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		
-		<!-- FLEX Slider -->
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script src="jquery.flexslider.js"></script>
-		<script type="text/javascript" charset="utf-8">
-		$(window).load(function() {
-		$('.flexslider').flexslider();
-		});
-		</script>
+	<!-- Include the jQuery library (local or CDN) -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Include the plugin *after* the jQuery library -->
+	<script src="bjqs.min.js"></script>
+
+	<!-- Include the basic styles -->
+	<link type="text/css" rel="Stylesheet" href="bjqs.css" />
+	
 		<!-- My CSS -->
 		<link rel="stylesheet" href="css/main.css" />		
 	</head>
@@ -50,21 +50,16 @@
 				</div><!-- Closing col/header -->
 				</header>
 		</div> <!-- Closing row/header -->
-		<div class="twelvcol">
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-					<img src="_asset/images/slider1.jpg"/>	
-					</li>
-					<li>
-					<img src="_asset/images/slider2.jpg" />
-					</li>
-					<li>
-					<img src="_asset/images/slider3.jpg" />
-					</li>
+		<div class="row">
+			<div id="my-slideshow">
+				<ul class="bjqs">
+					<li></li>
+					<li><img src="_asset/images/slider1.jpg" alt="slider1" /></li>
+					<li><img src="_asset/images/slider2.jpg" alt="slider2" /></li>
+					<li><img src="_asset/images/slider3.jpg" alt="slider3" /></li>
 				</ul>
-			</div><!-- Closing Flexslider -->
-		</div> <!-- Closing col -->
+			</div>
+		</div> <!-- Closing Row -->
 		
 			<div class="row">
 				<div class="sixcol">
@@ -109,5 +104,6 @@
 
 
 		</div> <!-- Closing Container -->
+		
 	</body>
 </html>

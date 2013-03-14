@@ -71,8 +71,7 @@ header {
 }
 
 footer {
-	margin-bottom: 0;
-	height: 140px;
+	height: 120px;
 	background-image: url("../_asset/images/header_bg.jpg");
 }
 
