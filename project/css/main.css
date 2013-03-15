@@ -74,7 +74,7 @@ nav a:hover {
 
 header {
 	height: 120px;
-	background-image: url("../_asset/images/header_bg.jpg");
+	background-image: url("../images/header_bg.jpg");
 }
 
 body {
@@ -85,6 +85,7 @@ body {
 
 
 #logo {
+	display: block;
 	width: 245px;
 	height: 200px;
 	background-image: url(../images/curtains.jpg);
@@ -150,7 +151,7 @@ body {
 footer {
 	clear: both;
 	height: 120px;
-	background-image: url("../_asset/images/header_bg.jpg");
+	background-image: url("../images/header_bg.jpg");
 }
 
 footer ul {
