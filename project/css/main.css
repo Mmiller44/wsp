@@ -87,7 +87,7 @@ body {
 #logo {
 	width: 245px;
 	height: 200px;
-	background-image: url(../_asset/images/curtains.jpg);
+	background-image: url(../images/curtains.jpg);
 	margin-top: -150px;
 	position: absolute;
 	z-index: 100;
