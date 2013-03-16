@@ -98,6 +98,17 @@ body {
 #address {
 	margin-top: 32px;
 }
+/*----------------------------------- Slider --------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------- Main Body Content ----------------------------------*/
 
 #gallery {
 	width: 410px;
@@ -105,6 +116,10 @@ body {
 	float: right;
 	margin-top: -180px;
 	margin-right: 5%;
+}
+
+#gallery img {
+	padding: 10px;
 }
 
 .headings {
