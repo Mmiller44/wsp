@@ -91,7 +91,7 @@ body {
 }
 
 
-#logo {
+#logo a {
 	display: block;
 	width: 245px;
 	height: 200px;
@@ -114,10 +114,9 @@ ol.bjqs-markers li a {
     text-decoration: none;
     background-color: white;
     border-radius: 2em;
-    color: black;
     text-indent: -9999em;
-    margin-right: 10px;
-    margin-top: 5px;
+    margin-right: 5px;
+    margin-top: 2.5px;
 }
 
 .active-marker {
@@ -128,6 +127,22 @@ ol.bjqs-markers li a {
 
 
 /*----------------------------------- Main Body Content ----------------------------------*/
+
+ p a {
+	color: #4597b6;
+	font-family: arial;
+	font-size: 1em;	
+}
+
+
+#page_title {
+	font-size: 3em;
+	font-family: arial;
+	margin-left: 40%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #4597b6;
+}
 
 #gallery {
 	width: 410px;
@@ -188,6 +203,17 @@ ol.bjqs-markers li a {
 
 .title {
 	padding-top: 20px;
+}
+
+iframe {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.image {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 10%;
 }
 
 /*----------------------------------Footer-------------------------------------------------*/
