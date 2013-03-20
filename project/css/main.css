@@ -81,7 +81,7 @@ nav a:hover {
 
 header {
 	height: 120px;
-	background-image: url("../images/header_bg.jpg");
+	background-image: url("../images/header.jpg");
 }
 
 body {
@@ -99,8 +99,12 @@ body {
 	margin-top: -150px;
 	position: absolute;
 	z-index: 100;
-	margin-left: 50px;	
+	margin-left: 50px;
+	-moz-box-shadow: 0 0 8px #111;
+	-webkit-box-shadow: 0 0 8px#111;
+	box-shadow: 0 0 8px #111;
 }
+
 
 #address {
 	margin-top: 32px;
@@ -110,21 +114,16 @@ body {
 
 ol.bjqs-markers li a {
     display: inline-block;
-    padding: 2px 10px;
-    text-decoration: none;
-    background-color: white;
-    border-radius: 2em;
     text-indent: -9999em;
-    margin-right: 5px;
-    margin-top: 2.5px;
 }
 
-.active-marker {
-
+.bjqs-prev {
+	text-indent: -9999em;
 }
 
-
-
+.bjqs-next {
+	text-indent: -9999em;
+}
 
 /*----------------------------------- Main Body Content ----------------------------------*/
 
@@ -218,6 +217,16 @@ iframe {
 
 .image p {
 	text-align: center;
+}
+
+.twelvcol .headings {
+	margin-left: 10%;
+}
+
+.paragraph {
+	font-family: arial;
+	margin-left: 10%;
+	line-height: 1.5em;
 }
 /*----------------------------------Footer-------------------------------------------------*/
 
