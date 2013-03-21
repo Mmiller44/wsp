@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	background-color: #000;
+}
+
 /*---------------------------------------------------------Navigation-----------------------------------------------------------------*/
 
 nav {
@@ -89,7 +93,8 @@ body {
 	background-color: #222;
 	color: #e7e7e7;
 	position: relative;
-	width: 100%;
+	width: 1140px;
+	margin: 0 auto;
 }
 
 
@@ -251,6 +256,7 @@ footer {
 	clear: both;
 	height: 120px;
 	background-image: url("../images/header_bg.jpg");
+	margin-top: 40px;
 }
 
 footer ul {
