@@ -760,7 +760,7 @@ footer p {
 
 
 
-/*---------------------------------------------------------------------------- Landscape --------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------- 680-767 ----------------------------------------------------------------------------*/
 
 @media all and (max-width: 767px) and (min-width: 680px) {
 
@@ -946,8 +946,11 @@ footer p {
 
 }
 
-@media all and (max-width: 985px) and (min-width: 768px) {
 
+
+/*---------------------------------------------------------------------------- Landscape --------------------------------------------------------------------------*/
+
+@media all and (max-width: 985px) and (min-width: 768px) {
 #page_title {
 	font-size: 2.5em;
 	margin-bottom: 10px;
@@ -961,31 +964,40 @@ footer p {
 
 header {
 	width: 100%;
-	height: 234px;
-	background-image: url(../images/tablet.jpg);
+	height: 120px;
+	background-image: url(../images/header.jpg);
 	background-color: #222;
 	}
 
-#logo img {
-	margin: 0 auto;
-	height: 180px;
+#logo a {
+	text-indent: -9999em;
 	display: block;
-	margin-bottom: 0px;
+	width: 245px;
+	height: 200px;
+	z-index: 110;
+	position: relative;
+	margin-top: -200px;
+	margin-left: 15%;
 }
 
-#logo a {
-	margin-left: -5%;
-	}
+#logo img {
+	min-width: 245px;
+	position: relative;
+	z-index: 100;
+	margin-left: 15%;
+	margin-top: -30px;
+}
+
 
 nav {
-	width: 110%;
+	width: 135%;
 	font-size: 1em;
 	margin: 0 10%;
 }
 
 nav ul {
-	margin-right: 33%;
-	margin-top: 20px;
+	margin-right: 5%;
+	margin-top: 80px;
 	float: right;
 }
 
@@ -1039,13 +1051,6 @@ iframe {
 
 .content_2 {
 	margin-left: 5%;
-}
-
-#gallery {
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 10px;
-	height: 340px;
 }
 
 form {
