@@ -87,14 +87,15 @@ header {
 	height: 120px;
 	background-image: url("../images/header.jpg");
 	border-bottom: #000 solid 2px;
+	width: 100%;
 }
 
 body {
 	background-color: #222;
 	color: #e7e7e7;
 	position: relative;
-	width: 1140px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 
@@ -103,19 +104,26 @@ body {
 	width: 245px;
 	height: 200px;
 	background-image: url(../images/curtains.jpg);
-	margin-top: -150px;
-	position: absolute;
+	position: relative;
 	z-index: 100;
 	margin-left: 50px;
 	-moz-box-shadow: 0 0 8px #111;
 	-webkit-box-shadow: 0 0 8px#111;
 	box-shadow: 0 0 8px #111;
+	text-indent: -9999em;
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
 }
 
+#logo {
+	
+}
 
 #address {
 	margin-top: 32px;
 }
+
 /*----------------------------------- Slider --------------------------------------------*/
 
 
@@ -130,6 +138,10 @@ ol.bjqs-markers li a {
 
 .bjqs-next {
 	text-indent: -9999em;
+}
+
+#banner-slide {
+	margin-top: -78px;
 }
 
 /*----------------------------------- Main Body Content ----------------------------------*/
@@ -151,7 +163,7 @@ ol.bjqs-markers li a {
 }
 
 #gallery {
-	width: 410px;
+	width: 35.96%;
 	height: 320px;
 	float: right;
 	margin-top: 50px;
@@ -250,6 +262,57 @@ iframe {
 	margin-left: 50px;
 	color: #4597b6;
 }
+
+
+form {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#first_name {
+	margin-bottom: 20px;
+}
+
+#last_name {
+	margin-bottom: 20px;
+}
+
+#street_address {
+	margin-bottom: 20px;
+
+}
+
+#city {
+	margin-bottom: 20px;
+}
+
+#state {
+	margin-bottom: 20px;
+}
+
+#zip {
+	margin-bottom: 20px;
+}
+
+#phone {
+	margin-bottom: 20px;
+}
+
+#email {
+	margin-bottom: 20px;
+}
+
+.interests {
+	margin-bottom: 20px;
+}
+
+#submit {
+	margin-bottom: 20px;
+}
+
+
+
+
 /*----------------------------------Footer-------------------------------------------------*/
 
 footer {
@@ -274,6 +337,7 @@ footer a {
 	padding: 5px;
 	color: #e7e7e7;
 	text-decoration: none;
+	margin: 0 auto; 
 }
 
 footer a:hover {
@@ -282,5 +346,19 @@ footer a:hover {
 
 footer p {
 	clear: both;
-	margin-left: 25%;
+	margin-right: 28%;
+	float: right;
 }
+
+
+
+/*----------------------------------MEDIA Queries-------------------------------------------------*/
+
+@media all and (max-width: 1015px) and (min-width: 971px) {
+
+	}
+}
+
+
+
+
