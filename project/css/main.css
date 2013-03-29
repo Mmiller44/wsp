@@ -49,6 +49,7 @@ table {
 
 html {
 	background-color: #000;
+	font-family: arial;
 }
 
 /*---------------------------------------------------------Navigation-----------------------------------------------------------------*/
@@ -185,7 +186,7 @@ ol.bjqs-markers li a {
 }
 
 .headings {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: arial;
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -206,7 +207,7 @@ ol.bjqs-markers li a {
 }
 
 .headings_2 {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: arial;
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -334,13 +335,15 @@ form {
 }
 
 input[type="checkbox"] {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	margin-right: 10px;
 
 }
 
 #submit {
+	width: 100px;
+	height: 50px;
 	border: none;
 	font-size: 1em;
 	text-align: center;
